@@ -264,8 +264,7 @@ footer h5{
     margin-left:10px;
     margin-right:10px;
     border-radius:30px;
-    border-left:.2px solid rgb(136, 207, 221);
-    border-right:.2px solid rgb(136, 207, 221);
+    border:.5px solid white;
     font-size:11pt;
 }
 
@@ -300,10 +299,6 @@ footer h5{
       -o-animation: fadein 5s; 
          animation: fadein 5s;
 }
-
-
-
-
 
 
 
@@ -443,4 +438,211 @@ input, textarea {
     border:.5px solid white;
     color:white;
 
+  }
+  #section-header-device{
+    display:none;
+  }
+
+  @media only screen and (max-width: 900px) {
+    
+        
+    * {
+        margin:0;
+        padding:0;
+    }
+
+    /** HEADER **/
+
+    #section-header{
+        margin:auto;
+        width:80%;
+        height:9vh;
+        text-align: center;
+        -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 5s; /* Firefox < 16 */
+            -ms-animation: fadein 5s; /* Internet Explorer */
+            -o-animation: fadein 5s; /* Opera < 12.1 */
+                animation: fadein 5s;
+                
+        border:none;
+    }
+
+        
+    #section-header ul{
+        display:none;
+    }
+
+    h1 {
+        margin:auto;
+        left:1%;
+        font-size:8vw;
+        width:60%;
+    }
+
+    h2 {
+        margin:0;
+        margin-top:5px;
+        text-align:center;
+        font-size:5vw;
+        position:relative;
+        top:17%;
+
+    }
+
+    h4 a{
+        margin:0;
+        text-align:center;
+        font-size:4vw;
+        position:relative;
+        top:140px;
+    }
+
+
+    #sputnik{
+        margin-left:35%;
+        width:35%;
+        top:40px;
+
+    }
+
+     
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 90%;
+      transform: rotate(0deg)
+    }
+  
+    to {
+      margin-left: 35%;
+      width: 35%;
+      transform: rotate(360deg)
+    }
+  }
+
+  footer {
+    border:none;
+    height:5%;
+  }
+
+  footer h5{
+    border:none;
+    font-size:2vw;
+  }
+
+  #section-sobrenos{
+    display:block;
+    overflow:auto;
+    padding-bottom:15%;
+    align-items:center;
+  }
+
+  #candeias, #gustavo, #ally, #isa{
+    background-color:rgba(255, 255, 255, 0);
+    margin:auto;
+    width:60vw;
+    margin-bottom:6%;
+    height:38vh;
+    display:inline-block;
+    position:relative;
+    left:10%;
+    margin-top:5px;
+    border-left:none;
+    border-right:none;
+    border-bottom:none;
+    border-radius:0px;
+  }
+
+  #candeias h4,#gustavo h4 ,#ally h4,#isa h4{
+    font-size:4vw;
+    }
+
+    #candeias h2,#gustavo h2 ,#ally h2,#isa h2{
+    font-size:3vw;
+    position:relative;
+    top:-10%;
+    }
+
+    #icons{
+        width:20vw;
+        height:10vh;
+        display:flex;
+        margin:auto;
+        position:relative;
+        justify-items: center;
+        justify-content: center;
+        top:-10%;
+    }
+
+    #icons img{
+       margin:auto;
+       position:relative;
+       left:-9.5%;
+    }
+
+    #icons a{
+        width:100%;
+        padding:2%;
+        margin:auto;
+        position:fi;
+    }
+
+    #section-servicos {
+        display:block;
+        overflow:auto;
+        height:67vh;
+    }
+    
+        
+    #servico-1, #servico-2,#servico-3,#servico-4 {
+        width:60%;
+        height:60%;
+        margin:auto;
+        margin-bottom:3%;
+        border-radius:30px;
+        border:.5px solid white;
+        font-size:11pt;
+    }
+
+    #servico-4{
+        font-size:10pt;
+    }
+    #loguinho{
+        width:18%;
+        position:relative;
+        left:40%;
+        top:-10%;
+        margin-bottom:2%;
+    }
+
+    #section-header-device{
+        display:contents;
+        width:100%;
+        height:10%;
+        color:white;
+        position:relative;
+        top:40px;
+    }
+    #section-header-device ul{
+        width:50%;
+        display:flex;
+        align-items: center;
+        position:relative;
+        top:20px;
+        margin:auto;
+        border: 1px solid rgb(43, 180, 235);
+        border-radius:10px;
+
+    }
+    #section-header-device ul li{
+        list-style-type:none;
+        margin:auto;
+        position:relative;
+        width:10%;
+    }
+    #mobile-icon{
+        width:100%;
+        margin-bottom:6px;
+        margin-top:6px;
+    }
   }
