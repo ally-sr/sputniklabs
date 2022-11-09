@@ -481,11 +481,10 @@ input, textarea {
 
     h2 {
         margin:0;
-        margin-top:5px;
         text-align:center;
         font-size:5vw;
         position:relative;
-        top:17%;
+        top:25%;
 
     }
 
@@ -494,14 +493,14 @@ input, textarea {
         text-align:center;
         font-size:4vw;
         position:relative;
-        top:140px;
+        top:150px;
     }
 
 
     #sputnik{
         margin-left:35%;
         width:35%;
-        top:40px;
+        top:60px;
 
     }
 
@@ -535,6 +534,8 @@ input, textarea {
     overflow:auto;
     padding-bottom:15%;
     align-items:center;
+    height:60vh;
+    padding-bottom:50px;
   }
 
   #candeias, #gustavo, #ally, #isa{
@@ -547,9 +548,7 @@ input, textarea {
     position:relative;
     left:10%;
     margin-top:5px;
-    border-left:none;
-    border-right:none;
-    border-bottom:none;
+    border:none;
     border-radius:0px;
   }
 
@@ -564,7 +563,7 @@ input, textarea {
     }
 
     #icons{
-        width:20vw;
+        width:25vw;
         height:10vh;
         display:flex;
         margin:auto;
@@ -591,17 +590,23 @@ input, textarea {
         display:block;
         overflow:auto;
         height:67vh;
+        background-color:rgba(0, 0, 0, 0);
     }
     
         
     #servico-1, #servico-2,#servico-3,#servico-4 {
         width:60%;
-        height:60%;
+        height:55%;
         margin:auto;
-        margin-bottom:3%;
+        margin-bottom:1%;
+        margin-top:2%;
         border-radius:30px;
-        border:.5px solid white;
+        border:none;
         font-size:11pt;
+        border-bottom:1px solid aqua;
+        border-radius:0;
+        padding-bottom:40px;
+
     }
 
     #servico-4{
@@ -610,39 +615,48 @@ input, textarea {
     #loguinho{
         width:18%;
         position:relative;
-        left:40%;
-        top:-10%;
-        margin-bottom:2%;
+        left:38%;
+        top:-20%;
+        margin-bottom:4%;
+        border-radius:180px;
+        padding:5px;
+        background-color:rgba(54, 0, 46, 0.247);
+        box-shadow:1px 1px 1px black;
     }
-
+    @keyframes mymove {
+        from {left: -500px;}
+        to {left: 0px;}
+      }
     #section-header-device{
         display:contents;
         width:100%;
         height:10%;
         color:white;
         position:relative;
-        top:40px;
     }
     #section-header-device ul{
         width:50%;
         display:flex;
         align-items: center;
         position:relative;
-        top:20px;
+        top:25px;
         margin:auto;
-        border: 1px solid rgb(43, 180, 235);
         border-radius:10px;
+        animation:mymove 5s;
 
     }
     #section-header-device ul li{
         list-style-type:none;
         margin:auto;
         position:relative;
-        width:10%;
+        width:17%;
     }
     #mobile-icon{
         width:100%;
         margin-bottom:6px;
         margin-top:6px;
+        border:1px solid aqua;
+        border-radius:240px;
+        padding:5px;
     }
   }
